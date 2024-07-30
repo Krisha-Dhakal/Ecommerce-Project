@@ -1,1 +1,5 @@
-
+.env file
+PORT = 8000      
+DATABASEURL=mongodb+srv://krisud22:leviackerman6160@cluster0.qjjdiga.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=Thisismyspecialkey
+JWT_EXPIRE=30d
