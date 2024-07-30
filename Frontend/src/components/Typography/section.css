@@ -1,0 +1,17 @@
+#inner--circle {
+  transition: all 0.6s ease-in-out 2ms;
+  z-index: 0;
+}
+
+#view--container:hover #inner--circle {
+  transform: scale(20);
+}
+
+#view--container:hover p {
+  color: white;
+  z-index: 30;
+}
+
+#view--container p {
+  color: #62287c;
+}
